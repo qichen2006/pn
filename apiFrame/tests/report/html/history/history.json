@@ -1,0 +1,97 @@
+{
+  "881ccb22132b424d31fe9d67c2412d59" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb7bc8d3079d31b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541466758,
+        "stop" : 1603541466824,
+        "duration" : 66
+      }
+    } ]
+  },
+  "6115743db8cb84428b1a6f281f808c58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5466e86028c3bca5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541466603,
+        "stop" : 1603541466684,
+        "duration" : 81
+      }
+    } ]
+  },
+  "16bb5b3d985cfb6b32dae32919fd9d67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "387560c0e2ab01e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541466688,
+        "stop" : 1603541466754,
+        "duration" : 66
+      }
+    } ]
+  },
+  "beb22a2d8a291fc143b367c170d3af10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8aa54ceb159650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541466828,
+        "stop" : 1603541466892,
+        "duration" : 64
+      }
+    } ]
+  },
+  "6eba89be57aaa519c6c26b29871e1dd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "577de409c32bddae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541466533,
+        "stop" : 1603541466600,
+        "duration" : 67
+      }
+    } ]
+  }
+}

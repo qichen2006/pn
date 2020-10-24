@@ -1,0 +1,673 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PS-12",
+    "children" : [ {
+      "name" : "11636-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas0]",
+        "uid" : "1d47c898f6dd1e00",
+        "parentUid" : "db36fa4b5a0adae9a4c0e16b445ed8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540744007,
+          "stop" : 1603540744076,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas2]",
+        "uid" : "d9dfe5cefd5fcc95",
+        "parentUid" : "db36fa4b5a0adae9a4c0e16b445ed8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540744166,
+          "stop" : 1603540744235,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "43c0b345014fdb8b",
+        "parentUid" : "db36fa4b5a0adae9a4c0e16b445ed8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540744240,
+          "stop" : 1603540744310,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "6e4a8c96c8d39a8b",
+        "parentUid" : "db36fa4b5a0adae9a4c0e16b445ed8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540744313,
+          "stop" : 1603540744384,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "c374f7ba86a78773",
+        "parentUid" : "db36fa4b5a0adae9a4c0e16b445ed8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540744079,
+          "stop" : 1603540744162,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "db36fa4b5a0adae9a4c0e16b445ed8e3"
+    }, {
+      "name" : "6704-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas1]",
+        "uid" : "4e198c2fbc2a1264",
+        "parentUid" : "7eb58c5f13509ad7041b3b949aca0eae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603540791504,
+          "stop" : 1603540793550,
+          "duration" : 2046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "5417c68a2f79097",
+        "parentUid" : "7eb58c5f13509ad7041b3b949aca0eae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603540789075,
+          "stop" : 1603540791120,
+          "duration" : 2045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas2]",
+        "uid" : "8688b8dc511bcf0",
+        "parentUid" : "7eb58c5f13509ad7041b3b949aca0eae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603540793671,
+          "stop" : 1603540795714,
+          "duration" : 2043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "f4aa103f9f6c8755",
+        "parentUid" : "7eb58c5f13509ad7041b3b949aca0eae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603540795835,
+          "stop" : 1603540796917,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "2b1e85701e26cb3e",
+        "parentUid" : "7eb58c5f13509ad7041b3b949aca0eae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540796926,
+          "stop" : 1603540796990,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "7eb58c5f13509ad7041b3b949aca0eae"
+    }, {
+      "name" : "5064-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas2]",
+        "uid" : "9d238a19c0c2ae6",
+        "parentUid" : "dcd741c501a605405a61d581c5d88f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541009929,
+          "stop" : 1603541009996,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "d1468195962e0217",
+        "parentUid" : "dcd741c501a605405a61d581c5d88f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541009999,
+          "stop" : 1603541010064,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "4e295fa5301abe5e",
+        "parentUid" : "dcd741c501a605405a61d581c5d88f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541009775,
+          "stop" : 1603541009843,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "f51b587cdb4c3f5c",
+        "parentUid" : "dcd741c501a605405a61d581c5d88f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541010067,
+          "stop" : 1603541010132,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "37e19bfb18a24a56",
+        "parentUid" : "dcd741c501a605405a61d581c5d88f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541009846,
+          "stop" : 1603541009926,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "dcd741c501a605405a61d581c5d88f7f"
+    }, {
+      "name" : "11996-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas2]",
+        "uid" : "f1083d336485a493",
+        "parentUid" : "ab3743524d268ebb69ea855788c4c2ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541256788,
+          "stop" : 1603541256854,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "75c1ce840fa509b8",
+        "parentUid" : "ab3743524d268ebb69ea855788c4c2ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541256858,
+          "stop" : 1603541256924,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "d7a04a47bc460ebf",
+        "parentUid" : "ab3743524d268ebb69ea855788c4c2ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541256510,
+          "stop" : 1603541256577,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "662422568bec5669",
+        "parentUid" : "ab3743524d268ebb69ea855788c4c2ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541256927,
+          "stop" : 1603541256994,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "580c7b6520ffffd0",
+        "parentUid" : "ab3743524d268ebb69ea855788c4c2ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541256581,
+          "stop" : 1603541256658,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "ab3743524d268ebb69ea855788c4c2ee"
+    }, {
+      "name" : "12484-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas1]",
+        "uid" : "8796724eaac0ffbb",
+        "parentUid" : "78abcde1770ace2e3fdb07cd61a3ce00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541119219,
+          "stop" : 1603541119299,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas2]",
+        "uid" : "52ebbf66e2a6ea76",
+        "parentUid" : "78abcde1770ace2e3fdb07cd61a3ce00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541119302,
+          "stop" : 1603541119368,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "2368e2c544f10e87",
+        "parentUid" : "78abcde1770ace2e3fdb07cd61a3ce00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541119441,
+          "stop" : 1603541119509,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "50ef37f3753de036",
+        "parentUid" : "78abcde1770ace2e3fdb07cd61a3ce00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541119147,
+          "stop" : 1603541119215,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "7bc2700fd982d5e6",
+        "parentUid" : "78abcde1770ace2e3fdb07cd61a3ce00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541119372,
+          "stop" : 1603541119438,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "78abcde1770ace2e3fdb07cd61a3ce00"
+    }, {
+      "name" : "15344-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas2]",
+        "uid" : "387560c0e2ab01e7",
+        "parentUid" : "33673925ec7cf26487f276b16b122844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541466688,
+          "stop" : 1603541466754,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "577de409c32bddae",
+        "parentUid" : "33673925ec7cf26487f276b16b122844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541466533,
+          "stop" : 1603541466600,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "cb7bc8d3079d31b",
+        "parentUid" : "33673925ec7cf26487f276b16b122844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541466758,
+          "stop" : 1603541466824,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "5466e86028c3bca5",
+        "parentUid" : "33673925ec7cf26487f276b16b122844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541466603,
+          "stop" : 1603541466684,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "1b8aa54ceb159650",
+        "parentUid" : "33673925ec7cf26487f276b16b122844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603541466828,
+          "stop" : 1603541466892,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "33673925ec7cf26487f276b16b122844"
+    }, {
+      "name" : "5252-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas2]",
+        "uid" : "13e0a70d60a9bc77",
+        "parentUid" : "d14dc809c66ad7a90e4c0a35f30a2589",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603541241442,
+          "stop" : 1603541243485,
+          "duration" : 2043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "93c0656e4a9dbfc9",
+        "parentUid" : "d14dc809c66ad7a90e4c0a35f30a2589",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603541239279,
+          "stop" : 1603541241321,
+          "duration" : 2042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "ba71f98756c6fd8c",
+        "parentUid" : "d14dc809c66ad7a90e4c0a35f30a2589",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603541237030,
+          "stop" : 1603541239075,
+          "duration" : 2045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "d14dc809c66ad7a90e4c0a35f30a2589"
+    }, {
+      "name" : "12208-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas2]",
+        "uid" : "e2bf9a8392b2f3d1",
+        "parentUid" : "f1d625a5114b48b58846a5ba4f8deb05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540846637,
+          "stop" : 1603540846702,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "129319a335e426c",
+        "parentUid" : "f1d625a5114b48b58846a5ba4f8deb05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540846554,
+          "stop" : 1603540846633,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "d7a752b3474a8527",
+        "parentUid" : "f1d625a5114b48b58846a5ba4f8deb05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540846800,
+          "stop" : 1603540846875,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "713cfcb1f40939d",
+        "parentUid" : "f1d625a5114b48b58846a5ba4f8deb05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540846706,
+          "stop" : 1603540846771,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "ee47d465d5c7c479",
+        "parentUid" : "f1d625a5114b48b58846a5ba4f8deb05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540846482,
+          "stop" : 1603540846551,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "f1d625a5114b48b58846a5ba4f8deb05"
+    }, {
+      "name" : "14428-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas2]",
+        "uid" : "bbf18e79d4c501af",
+        "parentUid" : "da6193d626a957edaae69eb5bdfead1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540934910,
+          "stop" : 1603540934976,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "24f8681e84a58a91",
+        "parentUid" : "da6193d626a957edaae69eb5bdfead1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540934754,
+          "stop" : 1603540934822,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "430fcecbb2ecb3bc",
+        "parentUid" : "da6193d626a957edaae69eb5bdfead1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540934827,
+          "stop" : 1603540934906,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "df8d78918ce64be9",
+        "parentUid" : "da6193d626a957edaae69eb5bdfead1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540934980,
+          "stop" : 1603540935048,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas4]",
+        "uid" : "40ce5cb0240e7e4f",
+        "parentUid" : "da6193d626a957edaae69eb5bdfead1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540935051,
+          "stop" : 1603540935118,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "da6193d626a957edaae69eb5bdfead1e"
+    }, {
+      "name" : "7044-MainThread",
+      "children" : [ {
+        "name" : "test_login_book[datas4]",
+        "uid" : "2d5f780b0e030782",
+        "parentUid" : "77067d08a03417c38131ccb03c632b61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540884490,
+          "stop" : 1603540884557,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': 'json', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas1]",
+        "uid" : "ab23df720b61ee1c",
+        "parentUid" : "77067d08a03417c38131ccb03c632b61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540884273,
+          "stop" : 1603540884351,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API测试实战\" }', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas2]",
+        "uid" : "7772a0941745d4c6",
+        "parentUid" : "77067d08a03417c38131ccb03c632b61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540884354,
+          "stop" : 1603540884419,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '查看书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'API测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas0]",
+        "uid" : "24baf533d3941803",
+        "parentUid" : "77067d08a03417c38131ccb03c632b61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540884201,
+          "stop" : 1603540884269,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_book[datas3]",
+        "uid" : "b92c7b72d845fc86",
+        "parentUid" : "77067d08a03417c38131ccb03c632b61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603540884423,
+          "stop" : 1603540884487,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': '', '模块': '书籍管理系统', '接口名称': '修改书籍信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{ \"author\": \"无涯\",\"done\": true,\"name\": \"API全栈测试\" }', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "77067d08a03417c38131ccb03c632b61"
+    } ],
+    "uid" : "72012f15f771c188dd11c1aa9ccd22ef"
+  } ]
+}

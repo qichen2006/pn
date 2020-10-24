@@ -1,0 +1,187 @@
+{
+  "uid" : "577de409c32bddae",
+  "name" : "test_login_book[datas0]",
+  "fullName" : "test_login_token_book#test_login_book",
+  "historyId" : "6eba89be57aaa519c6c26b29871e1dd6",
+  "time" : {
+    "start" : 1603541466533,
+    "stop" : 1603541466600,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1603541466532,
+      "stop" : 1603541466532,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1603541466532,
+      "stop" : 1603541466532,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1603541466532,
+      "stop" : 1603541466532,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1603541466532,
+      "stop" : 1603541466532,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "host",
+    "value" : "PS-12"
+  }, {
+    "name" : "thread",
+    "value" : "15344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7a04a47bc460ebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541256510,
+        "stop" : 1603541256577,
+        "duration" : 67
+      }
+    }, {
+      "uid" : "ba71f98756c6fd8c",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CE74A519C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1603541237030,
+        "stop" : 1603541239075,
+        "duration" : 2045
+      }
+    }, {
+      "uid" : "50ef37f3753de036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541119147,
+        "stop" : 1603541119215,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "4e295fa5301abe5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603541009775,
+        "stop" : 1603541009843,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "24f8681e84a58a91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603540934754,
+        "stop" : 1603540934822,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "24baf533d3941803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603540884201,
+        "stop" : 1603540884269,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "ee47d465d5c7c479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603540846482,
+        "stop" : 1603540846551,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "5417c68a2f79097",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001883E5C1788>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1603540789075,
+        "stop" : 1603540791120,
+        "duration" : 2045
+      }
+    }, {
+      "uid" : "1d47c898f6dd1e00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603540744007,
+        "stop" : 1603540744076,
+        "duration" : 69
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "577de409c32bddae.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': 'json', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}
